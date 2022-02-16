@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='起因 &amp;&amp; 這裡會有什麼內容'><title>關於我為什麼在這裡</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='關於 hugo 的 config 設置、客製化主題和部署'><title>用 Hugo 架設個人網站(2)</title>
 
-<link rel='canonical' href='https://rue1216.github.io/article/202202-%E9%97%9C%E6%96%BC%E6%88%91%E7%82%BA%E4%BB%80%E9%BA%BC%E5%9C%A8%E9%80%99%E8%A3%A1/'>
+<link rel='canonical' href='https://rue1216.github.io/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%992/'>
 
-<link rel="stylesheet" href="/scss/style.min.e0ec81d77a3ba425be075f628f6684688a11d4303b32a9a104739968476db3bf.css"><meta property='og:title' content='關於我為什麼在這裡'>
-<meta property='og:description' content='起因 &amp;&amp; 這裡會有什麼內容'>
-<meta property='og:url' content='https://rue1216.github.io/article/202202-%E9%97%9C%E6%96%BC%E6%88%91%E7%82%BA%E4%BB%80%E9%BA%BC%E5%9C%A8%E9%80%99%E8%A3%A1/'>
+<link rel="stylesheet" href="/scss/style.min.e0ec81d77a3ba425be075f628f6684688a11d4303b32a9a104739968476db3bf.css"><meta property='og:title' content='用 Hugo 架設個人網站(2)'>
+<meta property='og:description' content='關於 hugo 的 config 設置、客製化主題和部署'>
+<meta property='og:url' content='https://rue1216.github.io/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%992/'>
 <meta property='og:site_name' content='Rue&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='personal blog' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='前端開發' /><meta property='article:tag' content='自我成長' /><meta property='article:tag' content='閱讀心得' /><meta property='article:published_time' content='2022-02-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80' />
-<meta name="twitter:title" content="關於我為什麼在這裡">
-<meta name="twitter:description" content="起因 &amp;&amp; 這裡會有什麼內容"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='personal blog' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='前端開發' /><meta property='article:published_time' content='2022-02-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
+<meta name="twitter:title" content="用 Hugo 架設個人網站(2)">
+<meta name="twitter:description" content="關於 hugo 的 config 設置、客製化主題和部署"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
     <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -67,9 +67,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/article/202202-%E9%97%9C%E6%96%BC%E6%88%91%E7%82%BA%E4%BB%80%E9%BA%BC%E5%9C%A8%E9%80%99%E8%A3%A1/">
+            <a href="/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%992/">
                 
-                    <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1172&amp;q=80" loading="lazy" alt="Featured image of post 關於我為什麼在這裡" />
+                    <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" loading="lazy" alt="Featured image of post 用 Hugo 架設個人網站(2)" />
                 
             </a>
         </div>
@@ -79,20 +79,20 @@
     
     <header class="article-category">
         
-            <a href="/categories/self/" style="background-color: #2a9d8f; color: #fff;">
-                Self
+            <a href="/categories/tech/" style="background-color: #ff8d66; color: #fff;">
+                Tech
             </a>
         
     </header>
     
 
     <h2 class="article-title">
-        <a href="/article/202202-%E9%97%9C%E6%96%BC%E6%88%91%E7%82%BA%E4%BB%80%E9%BA%BC%E5%9C%A8%E9%80%99%E8%A3%A1/">關於我為什麼在這裡</a>
+        <a href="/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%992/">用 Hugo 架設個人網站(2)</a>
     </h2>
 
     
     <h3 class="article-subtitle">
-        起因 &amp;&amp; 這裡會有什麼內容
+        關於 hugo 的 config 設置、客製化主題和部署
     </h3>
     
 
@@ -109,7 +109,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Feb 15, 2022</time>
+                <time class="article-time--published">Feb 16, 2022</time>
             </div>
         
 
@@ -124,7 +124,7 @@
 
 
                 <time class="article-time--reading">
-                    閱讀時間: 2 分鐘
+                    閱讀時間: 3 分鐘
                 </time>
             </div>
         
@@ -136,35 +136,63 @@
     <section class="article-content">
     
     
-    <h1 id="屬於自己的-blog">屬於自己的 Blog</h1>
-<p>如果你跟我一樣曾經用過很多筆記軟體，卻怎麼樣都覺得不滿意，不要擔心，你不是一個人(σ′▽‵)′▽‵)σ</p>
-<p>目前我有使用過的筆記軟體 &amp;&amp; 社群，有：</p>
-<ul>
-<li>Notion 放置個人生活雜項</li>
-<li>HackMD 技術文章、實作紀錄</li>
-<li>Medium 都拿來看別人的好文(?)</li>
-<li>OneNote 之前上課常拿來做筆記，適合圖片多的課程</li>
-</ul>
-<p>但每一款筆記軟體，都沒有真的讓我非常喜歡，而統整出我希望的、部落格應該有的功能後，我決定自己架一個個人網站。</p>
-<h2 id="自建起因">自建起因</h2>
-<p>在去年9月踏入前端領域，開始學習許多自己覺得有趣的事物，跟著 Front-end Road-map ，以及許多前端開發課程的學習地圖走，把很多內容的基本介紹先摸了一輪。</p>
-<p>接下來，打算再把切版基礎打更穩一點，熟悉 HTML5 Canvas 的使用，也想學 OpenGL 的應用，再往後的話，會主力學習 Framework，目前選定的是 React。</p>
-<p>而前陣子有找了課程和影片，接觸像 Node.js 、 Firebase 等偏後端的學習和實際操作，也認真思考了一下，還是打算先自己架一個 Blog ，以便後續學習的紀錄。</p>
-<p>於是，千呼萬喚始出來了自己的部落格/</p>
-<p>很開心能夠擁有自己的一個新的小天地，有別於各式社群網站、技術部落格的樣板和功能，我從 Hexo、Hugo 中選擇以 Hugo 架站，除了效能考量之外，還是因為我真的很喜歡跟別人走不一樣的路、看不一樣的風景。</p>
-<h2 id="未來寫作方向">未來寫作方向</h2>
-<p>一開始在選定寫作目標的時候，就選擇了主要的三個大方向來進行寫作分享：</p>
-<ul>
-<li>前端開發：</li>
-<li>自我成長</li>
-<li>閱讀心得</li>
-</ul>
-<p>主要還是以<strong>前端開發</strong>為寫作重心，不過應該也不只會侷限於前端技術；自我成長的部分，著重於職涯規劃和生產力相關內容；閱讀心得，包含平常閱讀的書籍、文章，影音作品，會著重在觀後心得或議題發想(如果有的話)。</p>
-<p>這邊的內容和我的 <a class="link" href="https://hackmd.io/@Rue1999"  target="_blank" rel="noopener"
-    >HackMD</a> 會同步更新，因為HackMD在技術文章撰寫層面來說，真的蠻方便的，只是我覺得自己架站能夠展現更多個人特色哈哈哈</p>
-<h2 id="結語">結語</h2>
-<p>對於這裡的存在是既興奮又怕受傷害，一方面是覺得自己有很多地方不足，技術層面上還不夠熟練，畢竟是非本科的前端難民之一哈哈哈。</p>
-<p>但從踏入前端領域，到目前為止的感受，都是大寫的快樂和不停成長，是熱情和好奇，讓我不想停止學習和產出，也希望這份熱忱能讓我繼續成長、持續累積。</p>
+    <h1 id="用-hugo-架設自己的個人網站-2">用 Hugo 架設自己的個人網站 (2)</h1>
+<p>在前面的文章，已經成功讓套用好模板、發布第一篇新文章的部落格在本地端運行了，接下來可以開始做更多的個人化配置。</p>
+<p>啊因為我對版本控制還沒有非常熟悉，有些步驟對老手來說，可能會有較多餘的記錄，可以視情況跳過！</p>
+<h2 id="結構-configuration">結構 Configuration</h2>
+<p>首先可以來看一下部落格資料夾的結構：</p>
+<pre tabindex="0"><code>.
+├── archetypes 可以放置文章模板
+├── config.yaml 部落格的架構設定
+├── content 文章內容會在這裡
+├── data 可以放置資料文件來使用
+├── layouts 放置各式 view
+├── public 靜態網站的資料放置位置
+├── resources 生成的檔案檔
+├── static 可以放 images、favicon 等靜態檔案
+└── themes 使用的主題會放在這裡
+</code></pre><p>跟著主題的文件設定一輪之後，基礎的設定都能改好，像是 url 的呈現格式、dark/light theme 的設定等，基本上很詳盡，也有簡體中文版可以參閱。</p>
+<h2 id="客製化主題-modify-theme">客製化主題 Modify theme</h2>
+<p>我自己是沒有更動 SCSS 裡的 variable.scss，但 Stack 這個主題的製作者很貼心，如果你需要客製化的話，在每個區塊都可以找到 custom.html 和 custom.scss 。</p>
+<h3 id="favicon">Favicon</h3>
+<p>我使用的是這個<a class="link" href="https://favicon.io/favicon-generator/"  target="_blank" rel="noopener"
+    >網站</a>，製作好簡單的 icon 之後，將壓縮檔檔案整包放進 static 資料夾下，接著將下方語法貼入 assets/layout/partials/head 的 custom.html 裡，就可以得到小標了！</p>
+<h3 id="comment-system---disqus">Comment system - Disqus</h3>
+<p>一個好的部落格應該要有留言板&hellip;吧，所以 Stack 也提供了完善的留言系統供我們選用，而我使用了第一個 Disqus。</p>
+<p>首先可以到 Disqus 申請一個帳號，跟著跑一個 install on website 的流程，但我們的最終目的，只需要拿到General settings 頁面裡的 shortname ，接著更改 config.yaml 裡的 disqusShortname，就可以開啟留言版的服務了。</p>
+<p>需要注意的是，我們可以在 Disqus 的頁面中設定留言版的一些功能，像是有沒有表情符號可以選、多久會關閉留言功能等。</p>
+<h2 id="部署網站-deploy-website">部署網站 Deploy Website</h2>
+<p>關於部署網站的部分，我們會有兩個遠端數據庫，一個是在網站目錄下的.git，我自己是設定成 private repo，另一個是在我們利用指令 <code>hugo</code>，讓程式 generate 靜態網站到 public 資料夾裡，所以我們會在 public 資料夾內建一個 .git，設定成 public repo。</p>
+<p><a class="link" href="https://gohugo.io/hosting-and-deployment/hosting-on-github/"  target="_blank" rel="noopener"
+    >官方的部署資料</a>內有許多關於其他平台上的部署方式，但我使用的是 GitHub Pages，也就是說，我接下來會把剛剛產生出靜態網站、放在 public 資料夾內的東西，全部 push 到 GitHub 上。</p>
+<p>我們可以使用<code>&lt;USERNAME&gt;.github.io</code>作為這個公開的 repo 名稱，在 GitHub Pages 的規範裡，這是使用者或團體的頁面，與一般專案的 repo 不同。</p>
+<p>我們現在已經有了設定好的網站，可以先到 GitHub 開啟一個新的、名為 <code>&lt;USERNAME&gt;.github.io</code> 的 repo，接著照著下面的步驟走</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"># 獲取 Repository URL，例如 https://github.com/username/username.github.io.git
+
+# 進入到專案底下，打包你的網站，生成 public 資料夾
+$ hugo
+
+# 進入到 public 資料夾裡，執行遠端資源庫地址註冊
+$ cd public
+$ git init
+$ git remote add https://github.com/username/username.github.io.git
+
+# 確認遠端資源庫地址註冊成功
+$ git remove -v
+
+# 將目前異動提交成一個 commit
+$ git add .
+$ git commit -m &#39;initial site&#39;
+
+# 推送 commit
+$ git push
+</code></pre></div><p>如果之後新增文章需要更新網站，就可以在重新生成之後，把更動 commit 、 push 到這個公開的 repo 了。</p>
+<p>於是乎，我們就可以在自己的 Pages 上看到個人部落格啦！</p>
+<h2 id="參考教學">參考教學</h2>
+<p>*版本控制<a class="link" href="https://creaink.github.io/post/Devtools/Hugo/Hugo-intro.html"  target="_blank" rel="noopener"
+    >Hugo 搭建博客实践</a>
+*<a class="link" href="https://gohugo.io/hosting-and-deployment/hosting-on-github/"  target="_blank" rel="noopener"
+    >Host on GitHub</a></p>
 
 </section>
 
@@ -178,10 +206,6 @@
             <a href="/tags/hugo/">hugo</a>
         
             <a href="/tags/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/">前端開發</a>
-        
-            <a href="/tags/%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7/">自我成長</a>
-        
-            <a href="/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/">閱讀心得</a>
         
     </section>
 
@@ -203,24 +227,6 @@
                 
                     
 <article class="has-image">
-    <a href="/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%992/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" loading="lazy" data-key="" data-hash="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">用 Hugo 架設個人網站(2)</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="has-image">
     <a href="/article/202202-%E7%94%A8-hugo-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%991/">
         
         
@@ -233,6 +239,24 @@
 
         <div class="article-details">
             <h2 class="article-title">用 Hugo 架設個人網站(1)</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/article/202202-%E9%97%9C%E6%96%BC%E6%88%91%E7%82%BA%E4%BB%80%E9%BA%BC%E5%9C%A8%E9%80%99%E8%A3%A1/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1172&amp;q=80" loading="lazy" data-key="" data-hash="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1172&amp;q=80"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">關於我為什麼在這裡</h2>
         </div>
     </a>
 </article>
@@ -404,9 +428,15 @@
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#自建起因">自建起因</a></li>
-    <li><a href="#未來寫作方向">未來寫作方向</a></li>
-    <li><a href="#結語">結語</a></li>
+    <li><a href="#結構-configuration">結構 Configuration</a></li>
+    <li><a href="#客製化主題-modify-theme">客製化主題 Modify theme</a>
+      <ol>
+        <li><a href="#favicon">Favicon</a></li>
+        <li><a href="#comment-system---disqus">Comment system - Disqus</a></li>
+      </ol>
+    </li>
+    <li><a href="#部署網站-deploy-website">部署網站 Deploy Website</a></li>
+    <li><a href="#參考教學">參考教學</a></li>
   </ol>
 </nav>
                 </div>
