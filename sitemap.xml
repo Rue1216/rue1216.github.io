@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rue1216.github.io/categories/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/categories/media/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/post/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/tags/readings/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/tags/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rue1216.github.io/article/202203-%E8%8F%AF%E9%BA%97%E7%9A%84%E5%91%8A%E8%A7%A3-%E8%91%A3%E6%88%90%E7%91%9C/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rue1216.github.io/tags/hugo/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rue1216.github.io/tags/personal-blog/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rue1216.github.io/post/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rue1216.github.io/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rue1216.github.io/tags/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rue1216.github.io/categories/tech/</loc>
@@ -54,8 +63,6 @@
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rue1216.github.io/links/</loc>
-  </url><url>
-    <loc>https://rue1216.github.io/categories/media/</loc>
   </url><url>
     <loc>https://rue1216.github.io/search/</loc>
   </url>
